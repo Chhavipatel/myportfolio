@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url("https://th.bing.com/th/id/R.6cef7a487e7b9e882605e345b44afd59?rik=6dSJKkVwqjKNkQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-2o90pia4k3w%2fTqncz2uyO_I%2fAAAAAAAAADc%2fnsjvFQc8_Iw%2fs1600%2fbackground_image.jpg&ehk=WpsOcYmkQhAc8G2KcO4alKrFtngCp%2bkngzOjZQ7REPY%3d&risl=&pid=ImgRaw&r=0");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
+.por{
+    display: flex;
+    justify-content: space-around;
+
+}
+.por1{
+    color: white;
+    font-family: Cursive;
+    padding-top: 25px;
+    font-size: 25px;
+    margin-left: -4%;
+    color: rgb(45, 10, 10);
+}
+.por1:hover{
+    transform:scale(1.1);
+}
+.por4:hover{
+    transform: scale(1.1);
+}
+.por4{
+    font-family: sans-serif;
+    color: rgb(45, 10, 10);
+    padding-top: 6px;
+
+}
+nav{
+    padding-top: 35px;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+        /* display: block; */
+        padding: 10px 20px;
+        text-align: center;
+        color: rgb(45, 10, 10);
+        margin: 0;
+        font-family: Cursive;
+        font-size:16px ;
+        font-weight: 900px;
+        position: relative;
+}
+nav a:hover{
+    color: rgb(6, 60, 90);
+}
+
+/* .img1{
+    border-radius: 50%;
+    
+
+}
+.img{
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 90px;
+    background-color: black;
+    margin-top: 30px;
+    padding-bottom: 20px;
+   margin: auto;
+}
+.img2{
+    color: grey;
+    text-align: center;
+    padding-right: 200px;
+    padding-bottom: 70px;
+    font-size: 50px;
+    font-family: cursive;
+}
+.para{
+    color: grey;
+} */
+.img{
+    width: 600px;
+    height: 550px;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 30px;
+    background-color: rgb(23, 32, 42);
+    text-align: center;
+}
+.img1{
+    border-radius:50% ;
+    margin-top: 30px;
+}
+.img1:hover{
+    transform:scale(1.1) ;
+}
+.img:hover{
+    /* transform:skew(-5deg); */
+    transform: translateX(23px)
+}
+.img2{
+    font-family: cursive;
+    color: white;
+    margin-top: 10px;
+    font-size: 50px;
+}
+.para{
+    color: white;
+    margin-top: 15px;
+}
+#about{
+    width: 100%;
+    height: 600px;
+    background-color:transparent;
+   margin-top: 30px;
+   padding-top: 50px;
+}
+.about2{
+    background-color: grey;
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 40px;
+    
+}
+.about3{
+    width: 50%;
+    height: 100px;
+    background-color: pink;
+}
+.about5{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 35px;
+    font-style: pacifico;
+}
+.about3:hover{
+    transform:scale(1.1);
+}
+.about4{
+    padding-left: 60px;
+    padding-top: 40px;
+    
+}
+ol a:hover{
+color: black;
+transform:scale(1.1);
+}
+li{
+    list-style-type: disc;
+}
+.lis{
+    padding: 4px;
+    font-size: 13px;
+}
+.cv2{
+    text-align: center;
+    padding-top: 25px;
+margin-left: -7%;
+}
+.cv{
+background-color: pink;
+text-decoration: none;
+color: black;
+border: 1px solid black;
+font-size: 13px;
+padding: 6px;
+font-weight: 600;
+
+}
+.cv:hover{
+    background-color: black;
+    color: white;
+}
+#edu{
+    background-image: url("https://th.bing.com/th/id/R.9fec95942fbde03385838fccc3ef75b7?rik=OkOakAqmBz8fBA&riu=http%3a%2f%2fpapers.co%2fwallpaper%2fpapers.co-vs30-abstract-background-line-shape-gray-minimal3d-pattern-bw-dark-28-wallpaper.jpg&ehk=5Vav8cPiGnIq40R0K0XqCZaqkHqTCYiIRshvg9Kcljo%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 40px;
+}
+.edu1{
+    width: 100%;
+    height: 60px;
+    background-color: pink;
+    padding-top: 10px;
+    text-align: center;
+}
+.edu1:hover{
+    transform: scale(1.1);
+}
+.edu3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 100px;
+    text-align: center;
+}
+.edu4{
+    width: 65%;
+    height: 300px;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 6px;
+    color: black;
+    text-align: center;
+}
+.edu4:hover{
+    transform: scale(1.1);
+}
+.edu5{
+    width: 65%;
+    height: 300px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+.edu5:hover{
+    transform: scale(1.1);
+}
+.edu6{
+    width: 65%;
+    height: 300px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+.edu6:hover{
+    transform: scale(1.1);
+}
+.edi{
+    padding-top: 6px;
+}
+.ot{
+    margin-left: 11px;
+    padding-top: 15px;
+}
+li{
+    list-style-type: none;
+}
+.list{
+   
+    font-size: 10px;
+    padding-top: 8px;
+}
+#aboutt{
+    width: 100%;
+    height: 600px;
+    background-color:transparent;
+   margin-top: 30px;
+   padding-top: 50px;
+}
+.aboutt2{
+    background-color: grey;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 40px;
+    
+}
+.aboutt3{
+    width: 50%;
+    height: 80px;
+    background-color: pink;
+}
+.aboutt3:hover{
+    transform: scale(1.1);
+}
+.aboutt5{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 35px;
+    font-style: pacifico;
+}
+.sub{
+    display: inline-block;
+    background: pink;
+    margin-top:10px ;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.for{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+/* form input,form textarea{
+    width: 50%;
+    padding: 6px;
+    margin: 6px 0;
+    font-size: 13px;
+    border-radius: 6px;
+    color: black;
+    background-color: transparent;
+} */
+form input,form textarea{
+    width: 40%;
+    padding: 6px;
+    margin: 6px;
+}
+form button{
+    width: 10%;
+    height: 25%;
+    padding: 6px;
+}
+form input:hover{
+    transform: scale(1.1);
+}
+form textarea:hover{
+    transform: scale(1.1);
+}
+.sub:hover{
+    background: black;
+    color: white;
+
+}
+.new{
+    margin-left: -3%;
+}
+@media only screen and (max-width:600px){
+    nav a{
+        
+            padding: 5px 5px;
+            font-size: 13px;
+            
+    }
+    .img{
+        padding-left: -6%;
+    }
+    .about5{
+        
+        font-size: 25px;
+    }
+    #edu{
+       
+        height: 1300px;
+        
+    }
+    .edu5{
+       
+       
+        margin-left: 30px;
+        
+    }
+    .edu6{
+        margin-left: 30px;
+    }
+    .aboutt3{
+        width: 80%;
+       
+    }
+    
+    .aboutt5{
+       
+        /* padding-left: 15px; */
+        font-size: 30px;
+        
+    }
+    form button{
+        width: 25%;
+        height: 25%;
+        padding: 6px;
+    }
+    body{
+        width: 100%;
+    }
+    .img{
+        width:400px;
+    }
+}
